@@ -1,0 +1,87 @@
+:root{
+    --main-clr : #344054;
+    --secondary-clr:#667085;
+    --border-clr: #cbcce8;
+    --main-btn-clr:#5429ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header > h1{
+    margin-bottom: 7px;
+    color: var(--main-clr);
+}
+header > p{
+    color: var(--secondary-clr);
+}
+
+#wrapper{
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#left-section{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem;
+    width: 25%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+.input-container > label{
+    color: var(--main-clr);
+}
+.input{
+    border: 1px solid var(--border-clr);
+    border-radius: 5px;
+    padding:.3rem;
+}
+#options-container{
+    display: flex;
+    justify-content: space-between;
+}
+#cache-container > label{
+    color: var(--main-btn-clr);
+}
+
+#forgot-pass-container > a{
+    text-decoration: none;
+    color: var(--main-btn-clr);
+}
+
+.btn-container > div{
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+#signin-btn{
+    background-color: var(--main-btn-clr);
+    color: white;
+}
+#google-btn{
+    background-color: #fff;
+    border: 1px solid var(--border-clr);
+
+}
+
+
+
+img{
+ border-radius: 30px;
+}   
