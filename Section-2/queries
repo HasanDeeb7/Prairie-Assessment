@@ -1,0 +1,39 @@
+-- https://drawsql.app/teams/codi-21/diagrams/codi
+
+-- #1
+SELECT fname, lname, rank 
+FROM mnetors
+
+-- #2
+SELECT * 
+FROM instructors
+WHERE office_no = 333
+
+-- #3
+
+SELECT *
+FROM instructors
+WHERE slaray is > 1000
+
+-- #4
+SELECT fname, lname, rank
+FROM instructors
+WHERE slaray is > 1000
+
+-- #5
+
+SELECT fname, lname
+FROM instructors
+WHERE department is like "English & Life Skills"
+
+-- #6
+
+SELECT number
+FROM students
+WHERE Skills is like "Development"
+
+-- #7
+
+SELECT SNN
+FROM students
+WHERE Skills is like "Development"
